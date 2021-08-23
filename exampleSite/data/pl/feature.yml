@@ -3,25 +3,26 @@ feature:
   enable : true
   image : images/about/about-business-man.jpg
   image_webp : images/about/about-business-man.webp
-  title : We’re A Digital Design Agency.
+  title : Etapy projektu
   content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
   feature_item : 
       # feature item loop
-    - title : SEO Optimized
+    - title : Koncepcja funkcjonalna
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
-      
-      # feature item loop
-    - title : Easy Customization
-      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : Inwentaryzacja, dokumentacja zdjęciowa, wykonanie 2-3 rzutów z układem funkcjonalnym, przedstawienie i omówienie z inwestorem wstępnej, palety barw, materiałów oraz faktur
 
       # feature item loop
-    - title : SEO Optimized
+    - title : Projekt koncepcyjny
+      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+      content : Opracowanie aranżacji w formie rzutu 2D na podstawie wybranego układu funkcjonalnego, wykonanie wizualizacji 3D, przedstawiających koncepcję plastyczną wnętrza z projektowaną zabudową meblowoą i oświetleniem
+
+      # feature item loop
+    - title : Projekt wykonawczy
       icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : Układ funckjonalny, wytyczne instalacyjne (punkty elektryczne, wod-kan i c.o.) zmiany budowlane, układ podłóg i sufitów, widoki ścian i rozrys detali wnętrzarskich opracowanie specyfikacji wyposażenia i materiałów wraz z listą sklepów i kosztorysem
       
       # feature item loop
-    - title : Easy Customization
+    - title : Nadzór autorski
       icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : Pomoc w zamówieniach i koordynacja wykonywanych prac, wizyty na budowie, nadzór nad poprawnością realizacji projektu, osobiste dopracowanie detali wnętrza
+      

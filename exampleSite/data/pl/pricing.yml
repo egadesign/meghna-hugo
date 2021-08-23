@@ -1,64 +1,46 @@
 ##################################### pricing ##############################
 pricing:
   enable : true
-  title : Our Plans
+  title : Oferta
   pricing_table :
     # pricing table loop
-    - name : Free
-      price : $99
-      unit : month
+    - name : Podstawowy
+      price : 2000
+      unit : netto
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - 2 propozycje układu funkcjonalnego
+        - podstawowa aranżacja
+        - układ funkcji
+        - układ ścian działowych
+        - wytyczne instalacyjne
       button:
-        label : "Signup"
-        link : "#"
+        label : "kontakt"
+        link : "#contact"
       
     # pricing table loop
-    - name : Silver
-      price : $149
-      unit : month
+    - name : Koncepcyjny
+      price : 4000
+      unit : netto
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - pakiet podstawowy
+        - inwentaryzacja obiektu
+        - wizualizacje 3d
+        - pakiet rynunków w formie rzutów
       button:
-        label : "Signup"
-        link : "#"
+        label : "kontakt"
+        link : "#contact"
         
     # pricing table loop
-    - name : Gold
-      price : $199
-      unit : month
+    - name : Kompleksowy
+      price : 6000
+      unit : netto
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - pakiet koncepcyjny
+        - min 3 propozycje układu funkcjonalnego
+        - konsultacje z inwestorem
+        - fotorealistyczna wizualizacja
+        - kompleksowa dokumentacja
+        - nadzór
       button:
-        label : "Signup"
-        link : "#"
-        
-    # pricing table loop
-    - name : Platinum
-      price : $299
-      unit : month
-      services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
-      button:
-        label : "Signup"
-        link : "#"
+        label : "kontakt"
+        link : "#contact"

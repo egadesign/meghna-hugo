@@ -1,76 +1,65 @@
 #################################### portfolio ###############################
 portfolio:
   enable : true
-  title : Our Works
+  title : Przykładowe projekty
   portfolio_item :
     # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-1.jpg
-      image_webp : images/portfolio/portfolio-1.webp
-      categories : ["design"]
+    - name : kuchnia 1
+      image : images/portfolio/kuchnia_1.jpg
+      image_webp : images/portfolio/kuchnia_1.webp
+      categories : ["kuchnia"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "https://themefisher.com"
+      link : "https://onet.pl"
+
+    - name : kuchnia 2
+      image : images/portfolio/kuchnia_2.jpg
+      image_webp : images/portfolio/kuchnia_2.webp
+      categories : ["kuchnia"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "https://onet.pl"
       
     # portfolio item loop
-    - name : Sound system
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
-      categories : ["development"]
+    - name : łaźnia 1
+      image : images/portfolio/lazienka_1.jpg
+      image_webp : images/portfolio/lazienka_1.webp
+      categories : ["łazienka"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : ""
+      link : "https://onet.pl"
+
+    - name : łaźnia 2
+      image : images/portfolio/lazienka_2.jpg
+      image_webp : images/portfolio/lazienka_2.webp
+      categories : ["łazienka"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "https://onet.pl"
       
     # portfolio item loop
-    - name : Clock Product
-      image : images/portfolio/portfolio-3.jpg
-      image_webp : images/portfolio/portfolio-3.webp
-      categories : ["design", "development"]
+    - name : sypialnia 1
+      image : images/portfolio/sypialnia_1.jpg
+      image_webp : images/portfolio/sypialnia_1.webp
+      categories : ["sypialnia"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+
+    - name : sypialnia 2
+      image : images/portfolio/sypialnia_2.jpg
+      image_webp : images/portfolio/sypialnia_2.webp
+      categories : ["sypialnia"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+
+    # portfolio item loop
+    - name : salon 1
+      image : images/portfolio/salon_1.jpg
+      image_webp : images/portfolio/salon_1.webp
+      categories : ["salon"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+
+    - name : salon 2
+      image : images/portfolio/salon_2.jpg
+      image_webp : images/portfolio/salon_2.webp
+      categories : ["salon"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
       link : "#"
       
-    # portfolio item loop
-    - name : Bottol Label
-      image : images/portfolio/portfolio-4.jpg
-      image_webp : images/portfolio/portfolio-4.webp
-      categories : ["photography", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Shopping Bag
-      image : images/portfolio/portfolio-5.jpg
-      image_webp : images/portfolio/portfolio-5.webp
-      categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-6.jpg
-      image_webp : images/portfolio/portfolio-6.webp
-      categories : ["photography"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Business Card
-      image : images/portfolio/portfolio-7.jpg
-      image_webp : images/portfolio/portfolio-7.webp
-      categories : ["development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Stationary Design
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
-      categories : ["design", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
-      categories : ["design", "photography"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"

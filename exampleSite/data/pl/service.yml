@@ -1,34 +1,35 @@
 ################################# Service #################################
 service:
   enable : true
-  title : Our Services
+  title : Nasze usługi
   service_item :
     # service item loop
-    - name : WordPress Theme
+    - name : Układ funkcjonalny
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : W formie rzutów 2D, na podstawie rzutów dostarczonych przez inwestora
       
     # service item loop
-    - name : Responsive Design
+    - name : Aranżacja
       icon : ti-layout # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : Z wybranym układem funkcji i wymiarami mebli
       
     # service item loop
-    - name : Media &amp; Advertisement
+    - name : Inwentaryzacja obiektu
       icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : Pomiar metodą laserową, dokumentacja fotograficzna
+
+    # service item loop
+    - name : Fotorealistyczne wizualizacje
+      icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
+      content : Wybór materiałów, koncepcja umeblowania i wybór sprzętów, konsultacje z inwestorem
       
     # service item loop
-    - name : Graphic Design
+    - name : Kompleksowa dokumentacja
       icon : ti-palette # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : Rzuty, widoki, projekt mebli, zestawienie materiałów i sprzętów do zamówienia z adresami sklepów
       
     # service item loop
-    - name : Apps Development
+    - name : Nadzór
       icon : ti-package # themify icon pack : https://themify.me/themify-icons
       content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
       
-    # service item loop
-    - name : Networking
-      icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
