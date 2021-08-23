@@ -3,5 +3,5 @@
 
 ```
 cd exampleSite
-hugo server -D
+hugo server --disableFastRender -D
 ```
