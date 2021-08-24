@@ -1,10 +1,10 @@
 ##################################### pricing ##############################
 pricing:
   enable : true
-  title : Oferta
+  title : pakiety
   pricing_table :
     # pricing table loop
-    - name : Podstawowy
+    - name : podstawowy
       price : 2000
       unit : netto
       services:
@@ -18,7 +18,7 @@ pricing:
         link : "#contact"
       
     # pricing table loop
-    - name : Koncepcyjny
+    - name : koncepcyjny
       price : 4000
       unit : netto
       services:
@@ -31,7 +31,7 @@ pricing:
         link : "#contact"
         
     # pricing table loop
-    - name : Kompleksowy
+    - name : kompleksowy
       price : 6000
       unit : netto
       services:
