@@ -5,22 +5,22 @@ testimonial:
   bg_image_webp : images/backgrounds/bg-testimonial.webp
   testimonial_item :
     # testimonial item loop
-    - name : Jonathon Andrew
-      image : images/client/client-1.jpg
-      image_webp : images/client/client-1.webp
-      date : Dec 26, 2018
-      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+    - name : Michał Haponiuk
+      image : images/client/mh.jpg
+      image_webp : images/client/mh.webp
+      date : 26.12.2018
+      content : Wspaniały projekt mieszkania to jedno, ale nieocenioną zasługą jest uratowanie naszego małżeństwa - trudno policzyć jak wiele naszych wewnętrznych sporów, p. Ewelina rozwiązała proponowanymi kompromisami.
       
     # testimonial item loop
-    - name : Mark Dinn
-      image : images/client/client-2.jpg
-      image_webp : images/client/client-2.webp
-      date : Dec 26, 2018
-      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+    - name : Artur Nowak
+      image : images/client/an.jpg
+      image_webp : images/client/an.webp
+      date : 11.07.2019
+      content : Pani Ewelina sprawiła, że wyjeżdżając na wakacje, tęsknimy za domem już drugiego dnia! Pracując zdalnie w pokoju biurowym, nawet nie zauważam jak wyrabiam kolejne nadgodziny! Mój pracodawca lubi to.
       
     # testimonial item loop
-    - name : Lemos Kail
-      image : images/client/client-1.jpg
-      image_webp : images/client/client-1.webp
+    - name : Anna Ozga
+      image : images/client/pani.jpg
+      image_webp : images/client/pani.webp
       date : Dec 26, 2018
-      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+      content : Proces powstawania projektu był unikalny i jedyny w swoim rodzaju - nasze początkowe spotkania sprawiały, że czuliśmy się jak u psychologa na kozetce.
