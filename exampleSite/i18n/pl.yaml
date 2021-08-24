@@ -1,9 +1,9 @@
 - id: blogTitle
-  translation: Latest Post
+  translation: Wykonane realizacje
 - id: readMore
-  translation: Read more
+  translation: Więcej
 - id: viewAllPost
-  translation: View All Post
+  translation: Pokaż wszystkie
 - id: share
   translation: Share
 - id: aboutAuthor
@@ -13,15 +13,15 @@
 - id: all
   translation: All
 - id: about
-  translation: About Us
+  translation: O nas
 - id: services
-  translation: Service
+  translation: Usługi
 - id: portfolio
   translation: Portfolio
 - id: team
   translation: Team
 - id: pricing
-  translation: Pricing
+  translation: Oferta
 - id: blog
   translation: Blog
 - id: contact
