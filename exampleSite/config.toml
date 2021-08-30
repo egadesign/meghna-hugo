@@ -5,7 +5,7 @@ paginate = "6"
 summaryLength = "15"
 theme = "meghna-hugo"
 themesDir = "../.."
-title = "Meghna"
+title = "Ega Design"
 defaultContentLanguage = "pl"
 [Languages.pl]
 contentDir = "content/polish"
@@ -19,7 +19,7 @@ name = "about"
 url = "#about"
 weight = 1
 [[Languages.pl.menu.main]]
-name = "services"
+name = "usługi"
 url = "#services"
 weight = 2
 [[Languages.pl.menu.main]]
@@ -27,25 +27,13 @@ name = "portfolio"
 url = "#portfolio"
 weight = 3
 [[Languages.pl.menu.main]]
-name = "team"
-url = "#team"
-weight = 4
-[[Languages.pl.menu.main]]
-name = "pricing"
+name = "oferta"
 url = "#pricing"
 weight = 5
 [[Languages.pl.menu.main]]
-name = "blog"
-url = "#blog"
-weight = 6
-[[Languages.pl.menu.main]]
-name = "contact"
+name = "kontakt"
 url = "#contact"
-weight = 7
-[[Languages.pl.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
+weight = 6
 [params]
 author = "Themefisher"
 description = "Responsive Multipurpose Parallax Hugo Template"
@@ -70,8 +58,7 @@ link = "plugins/magnific-popup/magnific-popup.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
-#link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
-link = "https://fonts.googleapis.com/css?family=Abril+Fatface&subset=latin,latin-ext:400,700&display=swap"
+link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans|Kaisei+HarunoUmi:400,700&display=swap"
 [[params.plugins.js]]
 link = "plugins/jquery/jquery.min.js"
 [[params.plugins.js]]
