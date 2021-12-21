@@ -1,12 +1,12 @@
 ############################### Banner ################################
 banner:
   enable : true
-  bg_image_webp : "images/backgrounds/hero-area.webp"
-  bg_image : "images/backgrounds/hero-area.jpg"
-  icon : "" # themify icon pack : https://themify.me/themify-icons
-  title : "Wnętrza dopasowane do Ciebie"
-  content : "Kreujemy wyjątkowe przestrzenie do życia"
+  bg_image_webp : "images/backgrounds/kredki.webp"
+  bg_image : "images/backgrounds/kredki.jpg"
+  icon : "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+  title : "EWELINA GAWLIK"
+  content : "ARCHITEKT WNĘTRZ"
   button:
-    enable : true
-    label : "Poznajmy się"
-    link : "#services"
+    enable : false
+    label : "Skontaktuj się"
+    link : "#contact"

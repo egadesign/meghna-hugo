@@ -8,19 +8,43 @@
 	<img class="d-none" src="{{ .bg_image_webp | absURL }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'"/>
 
 	<div class="block">
-		{{ if .icon }}
-		<div class="video-button">
-			<i class="{{ .icon }}"></i>
-		</div>
-		{{ end }}
-		<h1>{{ .title | markdownify }}</h1>
-		<p>{{ .content | markdownify }}</p>
+		<img class="lozad" data-src="{{ site.Params.logo | absURL }}" alt="{{ .Site.Title }}" height="300">
+		<!-- <h1>EGA DESIGN</h1> -->
+		<h2 style="padding-top: 50px; color: #f0e7d6;">EWELINA GAWLIK</h2>
+		<p style="color: #f0e7d6;">architekt wnętrz</p>
 		{{ if .button.enable }}
 		{{ with .button }}
 		<a href="{{ .link }}" class="btn btn-transparent page-scroll">{{ .label }}</a>
 		{{ end }}
 		{{ end }}
+
+		<div class="container-flex">
+
+			{{ with $data.contact.contact }}
+			{{"<!-- Start Contact Us -->" | safeHTML}}
+			<div class="contact-details" style="padding-top: 50px;">
+				{{ range .contact_list }}
+				<div class="con-info clearfix">
+					<i class="{{ .icon }}"></i>
+					<span>{{ .info }}</span>
+				</div>
+				{{ end }}
+			</div>
+			{{"<!-- /contact -->" | safeHTML}}
+			{{ end }}
+
+			<div class="contact-details" style="padding-top: 100px;">
+				<div class="con-info clearfix">
+					<i class="ti-pulse"></i>
+					<!-- <i class="ti-settings"></i> -->
+					<span>STRONA W PRZEBUDOWIE</span>
+					<i class="ti-pulse"></i>
+				</div>
+				
+			</div>
+		</div>
 	</div>
+	
 </section>
 {{"<!-- /Welcome Slider-->" | safeHTML}}
 {{end}}
