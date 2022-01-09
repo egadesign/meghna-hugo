@@ -1,8 +1,8 @@
 ############################### Banner ################################
 banner:
   enable : true
-  bg_image_webp : "images/backgrounds/kredki.webp"
-  bg_image : "images/backgrounds/kredki.jpg"
+  bg_image_webp : "images/backgrounds/walek_zoom_out.webp"
+  bg_image : "images/backgrounds/walek_zoom_out.jpg"
   icon : "ti-facebook" # themify icon pack : https://themify.me/themify-icons
   title : "EWELINA GAWLIK"
   content : "ARCHITEKT WNĘTRZ"
