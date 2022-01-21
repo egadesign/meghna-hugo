@@ -1,0 +1,91 @@
+:root {
+    --bezowy_ciemny: #8a847a;
+    --bezowy_sredni: #cabaa0;
+    --bezowy_jasny: #f0e7d6;
+
+    --main_akcentowy: #70476a;
+
+    --main_ciemny: var(--bezowy_ciemny);
+    --main_sredni: var(--bezowy_sredni);
+    --main_jasny: var(--bezowy_jasny);
+}
+
+body {
+    background-color: var(--main_ciemny);
+    color: var(--bar);
+  }
+
+.navigation {
+    background-color: var(--main_ciemny);
+}
+
+.bg-one {
+    background-color: var(--main_sredni);
+}
+  
+.bg-dark {
+    background: var(--main_ciemny);
+}
+
+.about .block
+#contact-submit {
+    background: var(--main_ciemny);
+  }
+
+  .section-bg {
+    background: var(--main_ciemny);
+  }
+
+  .title h2 span {
+    color: var(--main_akcentowy);
+  }
+
+
+
+.btn-transparent:hover,
+.btn-transparent:focus {
+  background-color: var(--main_akcentowy);
+}
+
+.border-meghna:before {
+    background-color: var(--main_akcentowy);
+  }
+
+  a:hover,
+  .title h2 span, 
+  .header-bradcrumb a:hover,
+  .hero-area .block .video-button,
+  .about-2 .content-block .media i, 
+  .price-title h3, 
+  .price-title .value {
+    color: var(--main_akcentowy);
+  }
+
+  .about .block:hover {
+    border-bottom: 2px solid var(--main_akcentowy);
+  }
+
+.form-meghna input:hover,
+.form-meghna textarea:hover,
+.portfolio-filter .btn.active {
+  border-color: var(--main_akcentowy);
+}
+
+  .btn-main,
+  .portfolio-block .caption .search-icon {
+    background: var(--main_akcentowy);
+  }
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link,
+.service-2 .service-item:hover i {
+  color: var(--main_akcentowy);
+}
+
+.service-2 .service-item i {
+    font-size: 30px;
+    display: inline-block;
+    background: #57cbcc none repeat scroll 0 0;
+  }
