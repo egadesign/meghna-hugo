@@ -42,7 +42,20 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
   --55606a: #55606a;
   --3d444a: #3d444a;
   --26292e: #26292e;
-  
+
+  --rgb1: rgba(236, 239, 241, 0.07);
+  --rgb2: rgba(44, 44, 44, 0.3);
+  --rgb3: rgba(255, 255, 255, 0.7);
+  --rgb4: rgba(255, 255, 255, .1);
+  --rgb5: rgba(0, 0, 0, 0.096);
+  --rgb6: rgba(0, 0, 0, 0.5);
+  --rgb7: rgba(0, 0, 0, 0.7);
+  --rgb8: rgba(0, 0, 0, 0.15);
+  --rgb9: rgba(87, 203, 204, 0.7);
+  --rgb10: rgba(0, 0, 0, 0.1);
+  --rgb11: rgba(42, 48, 55, 0.7);
+  --rgb12: rgba(0, 174, 255, 0.432);
+  --rgb13: rgba(187, 187, 187, 0.34);
 
   --main_akcentowy: var(--orginalny_niebieski);
   --main_akcentowy_ciemniejszy: var(--orginalny_niebieski_ciemny);
@@ -103,7 +116,7 @@ pre {
 }
 
 hr {
-  border-top: 1px solid rgba(255, 255, 255, .1);
+  border-top: 1px solid var(--rgb4);
 }
 
 figure {
@@ -167,7 +180,7 @@ a:hover {
 }
 
 .border-meghna {
-  border-top: 2px solid rgba(236, 239, 241, 0.07);
+  border-top: 2px solid var(--rgb1);
   height: 1px;
   margin: 15px auto 0;
   position: relative;
@@ -378,7 +391,7 @@ a:hover {
 
 .overly:before {
   content: '';
-  background: rgba(0, 0, 0, 0.096);
+  background: var(--rgb5);
   position: absolute;
   top: 0;
   right: 0;
@@ -440,7 +453,7 @@ a:hover {
 }
 
 .single-page-header:before {
-  background: rgba(0, 0, 0, 0.5);
+  background: var(--rgb6);
   position: absolute;
   content: '';
   top: 0;
@@ -491,7 +504,7 @@ a:hover {
 
 .hero-area:before {
   content: '';
-  background: rgba(0, 0, 0, 0.63);
+  background: var(--rgb7);
   position: absolute;
   top: 0;
   right: 0;
@@ -582,7 +595,7 @@ a:hover {
 }
 
 .dark-bg {
-  background: rgba(0, 0, 0, 0.7);
+  background: var(--rgb7);
   height: 100%;
   width: 100%;
   position: absolute;
@@ -616,8 +629,8 @@ a:hover {
   background-color: transparent;
   margin: 46.19px auto 60px;
   padding: 20px 0;
-  border-left: 2px solid rgba(236, 239, 241, 0.07);
-  border-right: 2px solid rgba(236, 239, 241, 0.07);
+  border-left: 2px solid var(--rgb1);
+  border-right: 2px solid var(--rgb1);
   font-size: 50px;
   -webkit-transform: translateZ(0px);
   transform: translateZ(0px);
@@ -642,14 +655,14 @@ a:hover {
 
 .about .block .icon-box:before {
   top: -56.5685px;
-  border-top: 2px solid rgba(236, 239, 241, 0.07);
-  border-right: 2px solid rgba(236, 239, 241, 0.07);
+  border-top: 2px solid var(--rgb1);
+  border-right: 2px solid var(--rgb1);
 }
 
 .about .block .icon-box:after {
   bottom: -56.5685px;
-  border-bottom: 2px solid rgba(236, 239, 241, 0.07);
-  border-left: 2px solid rgba(236, 239, 241, 0.07);
+  border-bottom: 2px solid var(--rgb1);
+  border-left: 2px solid var(--rgb1);
 }
 
 .about .block .icon-box h3 {
@@ -743,7 +756,7 @@ a:hover {
   border-radius: 0;
   padding: 5px 10px;
   color: var(--ddd);
-  border: 1px solid rgba(236, 239, 241, 0.07);
+  border: 1px solid var(--rgb1);
 }
 
 .form-meghna .form-control:focus {
@@ -757,7 +770,7 @@ a:hover {
 }
 
 #contact-submit {
-  border: 1px solid rgba(236, 239, 241, 0.07);
+  border: 1px solid var(--rgb1);
   background: var(--main_akcentowy);
   padding: 12px 0;
   width: 100%;
@@ -844,7 +857,7 @@ a:hover {
   Pricing section
 ==================================================================*/
 .price-item {
-  border: 1px solid rgba(236, 239, 241, 0.07);
+  border: 1px solid var(--rgb1);
   padding-bottom: 30px;
   margin-bottom: 15px;
 }
@@ -882,7 +895,7 @@ a:hover {
 }
 
 .pricing li:last-child {
-  border-bottom: 1px solid rgba(236, 239, 241, 0.07);
+  border-bottom: 1px solid var(--rgb1);
   margin-bottom: 20px;
 }
 
@@ -905,7 +918,7 @@ a:hover {
 
 .portfolio-filter .btn {
   outline: 0;
-  border: 1px solid rgba(236, 239, 241, 0.07);
+  border: 1px solid var(--rgb1);
   background: transparent;
   display: inline-block;
   font-size: 16px;
@@ -993,10 +1006,10 @@ a:hover {
 ==================================================================*/
 .service-block {
   padding: 60px 20px;
-  border-left: 1px solid rgba(236, 239, 241, 0.07);
-  border-top: 1px solid rgba(236, 239, 241, 0.07);
+  border-left: 1px solid var(--rgb1);
+  border-top: 1px solid var(--rgb1);
   margin-bottom: 40px;
-  box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
+  box-shadow: 2px 2px 5px var(--rgb2), 13px 13px 0 var(--rgb3);
 }
 
 .service-block .service-icon {
@@ -1015,8 +1028,8 @@ a:hover {
 }
 
 .service-2 .service-item:hover {
-  box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 65px 0 var(--rgb8);
+  -webkit-box-shadow: 0 5px 65px 0 var(--rgb8);
 }
 
 .service-2 .service-item:hover i {
@@ -1029,7 +1042,7 @@ a:hover {
   display: inline-block;
   background: var(--main_akcentowy) none repeat scroll 0 0;
   border-radius: 30px;
-  box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 6px 0 var(--rgb10);
   color: var(--fff);
   height: 55px;
   line-height: 55px;
@@ -1049,7 +1062,7 @@ a:hover {
 .skill-bar p span {
   font-style: italic;
   font-size: 30px;
-  color: rgba(187, 187, 187, 0.34);
+  color: var(--rgb13);
   display: inline-block;
   vertical-align: middle;
 }
@@ -1106,7 +1119,7 @@ a:hover {
 }
 
 .member-photo .mask {
-  background-color: rgba(87, 203, 204, 0.7);
+  background-color: var(--rgb9);
   position: absolute;
   text-align: center;
   height: 100%;
@@ -1159,7 +1172,7 @@ a:hover {
   Testimonial section
 ==================================================================*/
 .testimonial:before {
-  background: rgba(42, 48, 55, 0.7);
+  background: var(--rgb11);
 }
 
 .client-info {
@@ -2041,12 +2054,12 @@ blockquote {
   background-color: transparent;
   padding: 5px 10px;
   color: var(--ddd);
-  border: 1px solid rgba(236, 239, 241, 0.07);
+  border: 1px solid var(--rgb1);
 }
 
 .form-control-meghna .form-control:focus {
   border-color: var(--main_akcentowy);
-  box-shadow: 0 0 0 0.2rem rgba(0, 174, 255, 0.432);
+  box-shadow: 0 0 0 0.2rem var(--rgb12);
 }
 
 figure img {
