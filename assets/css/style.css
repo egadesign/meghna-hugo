@@ -27,7 +27,22 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
   --666: #666;
   --f9f9f9: #f9f9f9;
   --292F36: #292F36;
-
+  --cfcfcf: #cfcfcf;
+  --6CB670: #6CB670;
+  --1d2024: #1d2024;
+  --444: #444;
+  --D8000C: #D8000C;
+  --FFBABA: #FFBABA;
+  --555: #555;
+  --eee: #eee;
+  --dedede: #dedede;
+  --000: #000;
+  --888: #888;
+  --F76C5E: #F76C5E;
+  --55606a: #55606a;
+  --3d444a: #3d444a;
+  --26292e: #26292e;
+  
 
   --main_akcentowy: var(--orginalny_niebieski);
   --main_akcentowy_ciemniejszy: var(--orginalny_niebieski_ciemny);
@@ -113,7 +128,7 @@ a:hover {
 
 a:focus,
 a:hover {
-  color: #6CB670;
+  color: var(--6CB670);
 }
 
 .kill-margin-bottom {
@@ -172,7 +187,7 @@ a:hover {
 }
 
 .color {
-  color: #6CB670;
+  color: var(--6CB670);
 }
 
 .sub-title {
@@ -377,7 +392,7 @@ a:hover {
 
 .header-bradcrumb a,
 .header-bradcrumb .active {
-  color: #cfcfcf;
+  color: var(--cfcfcf);
   font-weight: 200;
   font-family: "Roboto+Condensed", sans-serif;
 }
@@ -438,7 +453,7 @@ a:hover {
   Navigation
 ==================================================================*/
 .navigation {
-  background-color: #1d2024;
+  background-color: var(--1d2024);
   width: 100%;
   margin-bottom: 0;
 }
@@ -675,7 +690,7 @@ a:hover {
 
 .call-to-action h2 {
   font-weight: 700;
-  color: #444;
+  color: var(--444);
 }
 
 .call-to-action p {
@@ -778,14 +793,14 @@ a:hover {
 .error {
   display: none;
   padding: 10px;
-  color: #D8000C;
+  color: var(--D8000C);
   border-radius: 4px;
   font-size: 13px;
-  background-color: #FFBABA;
+  background-color: var(--FFBABA);
 }
 
 .success {
-  background-color: #6cb670;
+  background-color: var(--6CB670);
   border-radius: 4px;
   color: var(--fff);
   display: none;
@@ -956,7 +971,7 @@ a:hover {
 }
 
 .portfolio-block .caption h4 a {
-  color: #555;
+  color: var(--555);
 }
 
 .portfolio-block .caption .search-icon {
@@ -993,7 +1008,7 @@ a:hover {
   Services section 2
 ==================================================================*/
 .service-2 .service-item {
-  border: 1px solid #eee;
+  border: 1px solid var(--eee);
   margin-bottom: 30px;
   padding: 50px 20px;
   transition: all 0.3s ease 0s;
@@ -1304,7 +1319,7 @@ a:hover {
 
 .post-meta>span {
   color: var(--666);
-  border-right: 1px solid #dedede;
+  border-right: 1px solid var(--dedede);
   display: inline-block;
   font-size: 13px;
   margin: 10px 10px 0 0;
@@ -1325,7 +1340,7 @@ a:hover {
 }
 
 .post-excerpt h3 a {
-  color: #000;
+  color: var(--000);
 }
 
 .post-excerpt blockquote {
@@ -1343,20 +1358,20 @@ a:hover {
 .blog-subtitle {
   font-size: 15px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #dedede;
+  border-bottom: 1px solid var(--dedede);
   margin-bottom: 25px;
   text-transform: uppercase;
 }
 
 .next-prev {
-  border-bottom: 1px solid #dedede;
-  border-top: 1px solid #dedede;
+  border-bottom: 1px solid var(--dedede);
+  border-top: 1px solid var(--dedede);
   margin: 20px 0;
   padding: 25px 0;
 }
 
 .next-prev a {
-  color: #000;
+  color: var(--000);
 }
 
 .next-prev a:hover {
@@ -1399,7 +1414,7 @@ a:hover {
 }
 
 .post-author>img {
-  border: 1px solid #dedede;
+  border: 1px solid var(--dedede);
   max-width: 120px;
   padding: 5px;
   width: 100%;
@@ -1414,7 +1429,7 @@ a:hover {
 }
 
 .comment-wrap {
-  border: 1px solid #dedede;
+  border: 1px solid var(--dedede);
   border-radius: 1px;
   margin-left: 20px;
   padding: 10px;
@@ -1437,7 +1452,7 @@ a:hover {
 
 .comment-wrap .media .comment-meta {
   font-size: 12px;
-  color: #888;
+  color: var(--888);
 }
 
 .comment-wrap .media p {
@@ -1516,7 +1531,7 @@ a:hover {
   font: inherit;
   padding: 10px;
   margin-top: 20px;
-  outline-color: #F76C5E;
+  outline-color: var(--F76C5E);
   width: 100%;
 }
 
@@ -1551,7 +1566,7 @@ input#e-mail,
 }
 
 .social-icon ul li a {
-  background-color: #26292e;
+  background-color: var(--26292e);
   border: 1px solid transparent;
   display: block;
   height: 70px;
@@ -1569,7 +1584,7 @@ input#e-mail,
 }
 
 .social-icon ul li a i {
-  color: #55606a;
+  color: var(--55606a);
   display: inline-block;
   font-size: 32px;
   line-height: 70px;
@@ -1612,9 +1627,9 @@ input#e-mail,
 ==================================================================*/
 
 .twitter-bird span {
-  border: 2px solid #6cb670;
+  border: 2px solid var(--6CB670);
   border-radius: 50px;
-  color: #6cb670;
+  color: var(--6CB670);
   display: inline-block;
   margin-bottom: 50px;
   height: 90px;
@@ -1630,7 +1645,7 @@ input#e-mail,
 }
 
 .tweet a {
-  color: #6cb670;
+  color: var(--6CB670);
 }
 
 /*=================================================================
@@ -1642,9 +1657,9 @@ input#e-mail,
 }
 
 .blog-icon {
-  border: 1px solid #6CB670;
+  border: 1px solid var(--6CB670);
   border-radius: 50%;
-  color: #6CB670;
+  color: var(--6CB670);
   display: inline-block;
   padding: 16px 20px;
 }
@@ -1706,7 +1721,7 @@ input#e-mail,
 }
 
 .post-meta {
-  background-color: #3d444a;
+  background-color: var(--3d444a);
   border-top: 1px solid var(--4e595f);
   font-size: 13px;
   margin: 20px 0 0;
@@ -1730,7 +1745,7 @@ input#e-mail,
 }
 
 .post-meta a:hover {
-  color: #6CB670;
+  color: var(--6CB670);
 }
 
 .post-excerpt .more {
@@ -1744,7 +1759,7 @@ input#e-mail,
 }
 
 .post-excerpt .more a:hover {
-  background-color: #6CB670;
+  background-color: var(--6CB670);
   color: var(--fff);
 }
 
@@ -1792,9 +1807,9 @@ aside.widget {
 }
 
 .tab-post-nav li.active a {
-  border-top: 3px solid #6cb670;
+  border-top: 3px solid var(--6CB670);
   background-color: var(--2F383D);
-  color: #6CB670;
+  color: var(--6CB670);
 }
 
 .tab-pane.active .clearfix:first-child {
@@ -1812,7 +1827,7 @@ aside.widget {
 }
 
 .tab-excerpt h4 a:hover {
-  color: #6cb670;
+  color: var(--6CB670);
 }
 
 .tab-post-nav li a {
@@ -1830,7 +1845,7 @@ aside.widget {
 
 .categories>li:hover a {
   padding-left: 10px;
-  color: #6CB670;
+  color: var(--6CB670);
 }
 
 .categories>li:last-child {
@@ -1851,7 +1866,7 @@ aside.widget {
 }
 
 .widget-content .tag:hover {
-  background-color: #6CB670;
+  background-color: var(--6CB670);
   color: var(--fff);
 }
 
@@ -1887,7 +1902,7 @@ aside.widget {
 
 .post-pagination ul li a:hover,
 .post-pagination ul li.active a {
-  background-color: #6CB670;
+  background-color: var(--6CB670);
   color: var(--fff);
 }
 
@@ -1901,7 +1916,7 @@ aside.widget {
 }
 
 blockquote {
-  border-left: 5px solid #6cb670;
+  border-left: 5px solid var(--6CB670);
   font-style: italic;
   line-height: 22px;
   padding: 20px 20px 10px 20px;
@@ -1916,7 +1931,7 @@ blockquote {
 }
 
 .next-prev a:hover {
-  color: #6CB670;
+  color: var(--6CB670);
 }
 
 .prev-post i {
@@ -1988,7 +2003,7 @@ blockquote {
 
 .author-comment cite a:hover,
 .replay:hover {
-  color: #6CB670;
+  color: var(--6CB670);
   text-decoration: underline;
 }
 
@@ -2014,7 +2029,7 @@ blockquote {
 }
 
 #comment-form .form-control:hover {
-  border-color: #6CB670;
+  border-color: var(--6CB670);
 }
 
 .form-group:last-child,
@@ -2275,12 +2290,12 @@ figcaption {
   width: 40px;
   height: 40px;
   border-radius: 0;
-  background-color: #26292e;
-  border: 1px solid #26292e;
+  background-color: var(--26292e);
+  border: 1px solid var(--26292e);
   text-align: center;
   margin-right: 6px;
   font-weight: 700;
-  color: #55606a;
+  color: var(--55606a);
 }
 
 .pagination .page-item .page-link:hover {
