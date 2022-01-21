@@ -16,6 +16,14 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
   --orginalny_niebieski_ciemny: #2c9091;
   --orginalny_szary_sredni: #afbac4;
 
+  --737f8a: #737f8a;
+  --353b43: #353b43;
+  --4e595f: #4e595f;
+  --ddd: #ddd;
+  --fff: #fff;
+  --2F383D: #2F383D;
+
+
   --main_akcentowy: var(--orginalny_niebieski);
   --main_akcentowy_ciemniejszy: var(--orginalny_niebieski_ciemny);
   --text_tytuly: var(--orginalny_szary_sredni);
@@ -26,14 +34,14 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 }
 
 html {
-  background-color: #353b43;
-  color: #737f8a;
+  background-color: var(--353b43);
+  color: var(--737f8a);
 }
 
 body {
-  background-color: #353b43;
+  background-color: var(--353b43);
   font-family: "Roboto+Condensed", sans-serif;
-  color: #737f8a;
+  color: var(--737f8a);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -65,12 +73,12 @@ pre {
 ==================================================================*/
 ::-moz-selection {
   /* Code for Firefox */
-  color: #fff;
+  color: var(--fff);
   background: var(--main_akcentowy);
 }
 
 ::selection {
-  color: #fff;
+  color: var(--fff);
   background: var(--main_akcentowy);
 }
 
@@ -83,7 +91,7 @@ figure {
 }
 
 a {
-  color: #fff;
+  color: var(--fff);
   transition: all .3s ease-in 0s;
 }
 
@@ -117,25 +125,25 @@ a:hover {
 
 .btn {
   background-color: transparent;
-  color: #fff;
+  color: var(--fff);
   padding: 10px 30px;
   border-radius: 0;
   transition: all .3s ease-in 0s;
 }
 
 .btn:focus {
-  color: #ddd;
+  color: var(--ddd);
 }
 
 .btn-transparent {
-  border: 1px solid #4e595f;
+  border: 1px solid var(--4e595f);
 }
 
 .btn-transparent:hover,
 .btn-transparent:focus {
   background-color: var(--main_akcentowy);
   border: 1px solid transparent;
-  color: #fff;
+  color: var(--fff);
 }
 
 .border-meghna {
@@ -147,7 +155,7 @@ a:hover {
 }
 
 .border-meghna:before {
-  background-color: #fff;
+  background-color: var(--fff);
   content: '';
   height: 6px;
   left: 50%;
@@ -167,8 +175,8 @@ a:hover {
 }
 
 .sub-title>h3 {
-  border-left: 3px solid #ddd;
-  border-right: 3px solid #ddd;
+  border-left: 3px solid var(--ddd);
+  border-right: 3px solid var(--ddd);
   display: inline-block;
   padding: 5px 25px;
   text-transform: uppercase;
@@ -181,7 +189,7 @@ a:hover {
 }
 
 .bg-one {
-  background-color: #353b43;
+  background-color: var(--353b43);
 }
 
 .bg-dark {
@@ -238,7 +246,7 @@ a:hover {
 
 .btn-main {
   background: var(--main_akcentowy);
-  color: #fff;
+  color: var(--fff);
   display: inline-block;
   font-size: 14px;
   letter-spacing: 1px;
@@ -248,7 +256,7 @@ a:hover {
 
 .btn-main:hover {
   background: var(--main_akcentowy_ciemniejszy);
-  color: #fff;
+  color: var(--fff);
 }
 
 .mt-20 {
@@ -280,7 +288,7 @@ a:hover {
 }
 
 .btn:focus {
-  color: #ddd;
+  color: var(--ddd);
 }
 
 #home {
@@ -321,7 +329,7 @@ a:hover {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 38px;
-  color: #fff;
+  color: var(--fff);
 }
 
 .title h2 span {
@@ -333,7 +341,7 @@ a:hover {
 }
 
 .title.title-white h2 {
-  color: #fff;
+  color: var(--fff);
 }
 
 .bg-gray {
@@ -407,7 +415,7 @@ a:hover {
   background-size: cover;
   padding: 140px 0 70px;
   text-align: center;
-  color: #fff;
+  color: var(--fff);
   position: relative;
 }
 
@@ -477,7 +485,7 @@ a:hover {
 }
 
 .hero-area .block .video-button {
-  background: #fff;
+  background: var(--fff);
   color: var(--main_akcentowy);
   display: inline-block;
   height: 60px;
@@ -493,7 +501,7 @@ a:hover {
 
 .hero-area .block h1 {
   font-size: 90px;
-  color: #fff;
+  color: var(--fff);
   text-transform: capitalize;
   font-weight: 700;
   margin-bottom: 20px;
@@ -506,7 +514,7 @@ a:hover {
 }
 
 .hero-area .block p {
-  color: #fff;
+  color: var(--fff);
   font-size: 20px;
   width: 70%;
   margin: 0 auto;
@@ -514,7 +522,7 @@ a:hover {
 
 .hero-area .block .btn-transparent {
   margin-top: 40px;
-  border-color: #fff;
+  border-color: var(--fff);
   padding: 14px 50px;
   font-size: 18px;
   font-size: 16px;
@@ -531,7 +539,7 @@ a:hover {
 }
 
 .hero-area-video .block {
-  color: #fff;
+  color: var(--fff);
   text-align: center;
 }
 
@@ -542,7 +550,7 @@ a:hover {
 }
 
 .hero-area-video .block p {
-  color: #fff;
+  color: var(--fff);
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 3px;
@@ -681,7 +689,7 @@ a:hover {
   padding: 100px 0;
   background-image: url("../images/call-to-action/call-to-action-bg.jpg");
   background-size: cover;
-  color: #fff;
+  color: var(--fff);
 }
 
 .call-to-action-2 h2 {
@@ -689,7 +697,7 @@ a:hover {
 }
 
 .call-to-action-2 p {
-  color: #fff;
+  color: var(--fff);
 }
 
 .call-to-action-2 .btn-main {
@@ -714,7 +722,7 @@ a:hover {
   background-color: transparent;
   border-radius: 0;
   padding: 5px 10px;
-  color: #ddd;
+  color: var(--ddd);
   border: 1px solid rgba(236, 239, 241, 0.07);
 }
 
@@ -742,7 +750,7 @@ a:hover {
 }
 
 .form-meghna ::placeholder {
-  color: #ddd !important;
+  color: var(--ddd) !important;
 }
 
 .google-map #map-canvas {
@@ -774,7 +782,7 @@ a:hover {
 .success {
   background-color: #6cb670;
   border-radius: 4px;
-  color: #fff;
+  color: var(--fff);
   display: none;
   font-size: 13px;
   padding: 10px;
@@ -883,7 +891,7 @@ a:hover {
   font-size: 16px;
   padding: 6px 20px;
   font-weight: 700;
-  color: #737f8a;
+  color: var(--737f8a);
   transition: .3s all;
 }
 
@@ -950,7 +958,7 @@ a:hover {
   background: var(--main_akcentowy);
   width: 50px;
   height: 50px;
-  color: #fff;
+  color: var(--fff);
   display: inline-block;
   font-size: 20px;
   border-radius: 30px;
@@ -992,7 +1000,7 @@ a:hover {
 }
 
 .service-2 .service-item:hover i {
-  background: #fff;
+  background: var(--fff);
   color: var(--main_akcentowy);
 }
 
@@ -1002,7 +1010,7 @@ a:hover {
   background: var(--main_akcentowy) none repeat scroll 0 0;
   border-radius: 30px;
   box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
-  color: #fff;
+  color: var(--fff);
   height: 55px;
   line-height: 55px;
   margin-bottom: 20px;
@@ -1099,8 +1107,8 @@ a:hover {
 }
 
 .member-photo .mask ul li a {
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid var(--fff);
+  color: var(--fff);
   display: block;
   font-size: 20px;
   height: 35px;
@@ -1110,7 +1118,7 @@ a:hover {
 }
 
 .member-photo .mask ul li a:hover {
-  background-color: #fff;
+  background-color: var(--fff);
   color: var(--main_akcentowy);
   border: 1px solid transparent;
 }
@@ -1180,7 +1188,7 @@ a:hover {
 
 .owl-controls .owl-page span {
   background-color: transparent;
-  border: 2px solid #fff;
+  border: 2px solid var(--fff);
   border-radius: 50px;
   display: block;
   height: 13px;
@@ -1207,7 +1215,7 @@ a:hover {
 
 #our-clietns .owl-next,
 #our-clietns .owl-prev {
-  border: 1px solid #ddd;
+  border: 1px solid var(--ddd);
   border-radius: 50px;
   display: inline-block;
   margin: 45px 0 0;
@@ -1234,7 +1242,7 @@ a:hover {
 ==================================================================*/
 .note {
   background-color: #292F36;
-  border: 1px solid #4e595f;
+  border: 1px solid var(--4e595f);
 }
 
 .post-block {
@@ -1254,7 +1262,7 @@ a:hover {
 }
 
 .note .media-wrapper {
-  border-bottom: 1px solid #4e595f;
+  border-bottom: 1px solid var(--4e595f);
 }
 
 .note .excerpt h3 {
@@ -1322,7 +1330,7 @@ a:hover {
 }
 
 .single-blog {
-  background-color: #fff;
+  background-color: var(--fff);
   margin-bottom: 50px;
   padding: 20px;
 }
@@ -1364,7 +1372,7 @@ a:hover {
 }
 
 .social-profile ul li a {
-  color: #4e595f;
+  color: var(--4e595f);
   display: block;
   font-size: 16px;
 }
@@ -1514,7 +1522,7 @@ a:hover {
 }
 
 .post-time {
-  color: #737f8a;
+  color: var(--737f8a);
 }
 
 input#e-mail,
@@ -1551,7 +1559,7 @@ input#e-mail,
 }
 
 .social-icon ul li a:hover i {
-  color: #fff;
+  color: var(--fff);
   opacity: 1;
 }
 
@@ -1567,7 +1575,7 @@ input#e-mail,
 
 .copyright {
   padding: 20px 0;
-  color: #fff;
+  color: var(--fff);
 }
 
 .copyright img {
@@ -1579,9 +1587,9 @@ input#e-mail,
 }
 
 #scrollUp {
-  border: 1px solid #4e595f;
+  border: 1px solid var(--4e595f);
   bottom: 15px;
-  color: #fff;
+  color: var(--fff);
   display: none;
   padding: 8px 12px;
   position: fixed;
@@ -1645,7 +1653,7 @@ input#e-mail,
 }
 
 .post-item .entry {
-  border: 1px solid #4e595f;
+  border: 1px solid var(--4e595f);
   margin-bottom: 30px;
 }
 
@@ -1689,19 +1697,19 @@ input#e-mail,
 }
 
 #post-thumb .owl-buttons {
-  color: #fff;
+  color: var(--fff);
 }
 
 .post-meta {
   background-color: #3d444a;
-  border-top: 1px solid #4e595f;
+  border-top: 1px solid var(--4e595f);
   font-size: 13px;
   margin: 20px 0 0;
   padding: 0 20px 10px;
 }
 
 .post-meta>span {
-  border-right: 1px solid #4e595f;
+  border-right: 1px solid var(--4e595f);
   display: inline-block;
   font-size: 12px;
   margin: 10px 10px 0 0;
@@ -1732,7 +1740,7 @@ input#e-mail,
 
 .post-excerpt .more a:hover {
   background-color: #6CB670;
-  color: #fff;
+  color: var(--fff);
 }
 
 aside.widget {
@@ -1740,7 +1748,7 @@ aside.widget {
 }
 
 .widget-title>h3 {
-  color: #fff;
+  color: var(--fff);
   margin-bottom: 15px;
   margin-top: 0;
   position: relative;
@@ -1766,7 +1774,7 @@ aside.widget {
 }
 
 .widget-content .tab-content {
-  background-color: #2f383d;
+  background-color: var(--2F383D);
   padding: 20px;
 }
 
@@ -1780,7 +1788,7 @@ aside.widget {
 
 .tab-post-nav li.active a {
   border-top: 3px solid #6cb670;
-  background-color: #2F383D;
+  background-color: var(--2F383D);
   color: #6CB670;
 }
 
@@ -1795,7 +1803,7 @@ aside.widget {
 }
 
 .tab-excerpt h4 a {
-  color: #fff;
+  color: var(--fff);
 }
 
 .tab-excerpt h4 a:hover {
@@ -1804,7 +1812,7 @@ aside.widget {
 
 .tab-post-nav li a {
   border-top: 3px solid transparent;
-  color: #fff;
+  color: var(--fff);
   display: block;
   padding: 13px 18px;
   text-align: center;
@@ -1829,8 +1837,8 @@ aside.widget {
 }
 
 .widget-content .tag {
-  background-color: #2F383D;
-  color: #fff;
+  background-color: var(--2F383D);
+  color: var(--fff);
   display: inline-block;
   margin-bottom: 10px;
   margin-right: 5px;
@@ -1839,7 +1847,7 @@ aside.widget {
 
 .widget-content .tag:hover {
   background-color: #6CB670;
-  color: #fff;
+  color: var(--fff);
 }
 
 .post-pagination {
@@ -1875,14 +1883,14 @@ aside.widget {
 .post-pagination ul li a:hover,
 .post-pagination ul li.active a {
   background-color: #6CB670;
-  color: #fff;
+  color: var(--fff);
 }
 
 /*=================================================================
 	Single Blog Page
 ==================================================================*/
 .single-blog {
-  background-color: #fff;
+  background-color: var(--fff);
   margin-bottom: 50px;
   padding: 20px;
 }
@@ -1896,8 +1904,8 @@ blockquote {
 }
 
 .next-prev {
-  border-bottom: 1px solid #4e595f;
-  border-top: 1px solid #4e595f;
+  border-bottom: 1px solid var(--4e595f);
+  border-top: 1px solid var(--4e595f);
   margin: 20px 0;
   padding: 15px 0 10px;
 }
@@ -1923,7 +1931,7 @@ blockquote {
 }
 
 .post-author>img {
-  border: 1px solid #4e595f;
+  border: 1px solid var(--4e595f);
   max-width: 120px;
   padding: 5px;
   width: 100%;
@@ -1932,7 +1940,7 @@ blockquote {
 .comment-reply-form>h3,
 .author-about>h4,
 .comments>h4 {
-  border-bottom: 1px solid #4e595f;
+  border-bottom: 1px solid var(--4e595f);
   margin-bottom: 15px;
   margin-top: 0;
   padding-bottom: 10px;
@@ -1956,7 +1964,7 @@ blockquote {
 }
 
 .comment-wrap {
-  border: 1px solid #4e595f;
+  border: 1px solid var(--4e595f);
   border-radius: 1px;
   margin-left: 20px;
   padding: 10px;
@@ -2012,7 +2020,7 @@ blockquote {
 .form-control-meghna .form-control {
   background-color: transparent;
   padding: 5px 10px;
-  color: #ddd;
+  color: var(--ddd);
   border: 1px solid rgba(236, 239, 241, 0.07);
 }
 
@@ -2038,7 +2046,7 @@ figcaption {
 
 .resp-sharing-button__link {
   text-decoration: none;
-  color: #fff;
+  color: var(--fff);
   margin: 0.5em
 }
 
@@ -2063,14 +2071,14 @@ figcaption {
 
 /* Non solid icons get a stroke */
 .resp-sharing-button__icon {
-  stroke: #fff;
+  stroke: var(--fff);
   fill: none
 }
 
 /* Solid icons get a fill */
 .resp-sharing-button__icon--solid,
 .resp-sharing-button__icon--solidcircle {
-  fill: #fff;
+  fill: var(--fff);
   stroke: none
 }
 
@@ -2273,7 +2281,7 @@ figcaption {
 .pagination .page-item .page-link:hover {
   background: var(--main_akcentowy);
   border-color: var(--main_akcentowy);
-  color: #fff
+  color: var(--fff)
 }
 
 .pagination .page-item:first-child .page-link,
@@ -2283,12 +2291,12 @@ figcaption {
 
 .pagination .page-item.active .page-link {
   background: var(--main_akcentowy);
-  color: #fff;
+  color: var(--fff);
   border-color: var(--main_akcentowy);
 }
 
 #select-language {
-  background: #353b43;
+  background: var(--353b43);
   color: #ffffff;
   border: 0;
 }
