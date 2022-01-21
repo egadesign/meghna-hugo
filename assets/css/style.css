@@ -12,9 +12,10 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
   --bezowy_sredni: #cabaa0;
   --bezowy_jasny: #f0e7d6;
   --orginalny_niebieski: #57cbcc;
+  --orginalny_niebieski_ciemny: #2c9091;
 
   --main_akcentowy: var(--orginalny_niebieski);
-  --main_akcentowy_ciemniejszy: var(--orginalny_niebieski);
+  --main_akcentowy_ciemniejszy: var(--orginalny_niebieski_ciemny);
 
   --main_ciemny: var(--bezowy_ciemny);
   --main_sredni: var(--bezowy_sredni);
@@ -243,7 +244,7 @@ a:hover {
 }
 
 .btn-main:hover {
-  background: #2c9091;
+  background: var(--main_akcentowy_ciemniejszy);
   color: #fff;
 }
 
@@ -733,8 +734,8 @@ a:hover {
 }
 
 #contact-submit:hover {
-  border-color: #2c9091;
-  background-color: #2c9091;
+  border-color: var(--main_akcentowy_ciemniejszy);
+  background-color: var(--main_akcentowy_ciemniejszy);
 }
 
 .form-meghna ::placeholder {
