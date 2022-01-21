@@ -11,11 +11,14 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
   --bezowy_ciemny: #8a847a;
   --bezowy_sredni: #cabaa0;
   --bezowy_jasny: #f0e7d6;
+
   --orginalny_niebieski: #57cbcc;
   --orginalny_niebieski_ciemny: #2c9091;
+  --orginalny_szary_sredni: #afbac4;
 
   --main_akcentowy: var(--orginalny_niebieski);
   --main_akcentowy_ciemniejszy: var(--orginalny_niebieski_ciemny);
+  --text_tytuly: var(--orginalny_szary_sredni);
 
   --main_ciemny: var(--bezowy_ciemny);
   --main_sredni: var(--bezowy_sredni);
@@ -42,7 +45,7 @@ h5,
 h6 {
   font-weight: 400;
   font-family: "Roboto+Condensed", sans-serif;
-  color: #afbac4;
+  color: var(--text_tytuly);
 }
 
 p {
@@ -54,7 +57,7 @@ p {
 }
 
 pre {
-  color: #afbac4;
+  color: var(--text_tytuly);
 }
 
 /*=================================================================
@@ -622,7 +625,7 @@ a:hover {
 }
 
 .about .block .icon-box h3 {
-  color: #afbac4;
+  color: var(--text_tytuly);
 }
 
 /*=================================================================
@@ -1143,7 +1146,7 @@ a:hover {
 }
 
 .client-comment p {
-  color: #afbac4;
+  color: var(--text_tytuly);
   font-size: 18px;
 }
 
@@ -1505,7 +1508,7 @@ a:hover {
 }
 
 .post-comment-name {
-  color: #afbac4;
+  color: var(--text_tytuly);
   font-weight: 500;
   font-size: 18px;
 }
