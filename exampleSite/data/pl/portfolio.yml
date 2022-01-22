@@ -4,27 +4,27 @@ portfolio:
   title : Przykładowe projekty
   portfolio_item :
     # portfolio item loop
-    - name : kuchnia 1
+    - name : "domek z ciechocinka"
       image : images/portfolio/kuchnia_1.jpg
       image_webp : images/portfolio/kuchnia_1.webp
       categories : ["kuchnia"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "https://onet.pl"
+      content : zajebista kuchnia z przytulnej realizacji
+      link : "/portfolio/domek_z_ciechocinka/"
 
-    - name : kuchnia 2
+    - name : "zamek krolowej"
       image : images/portfolio/kuchnia_2.jpg
       image_webp : images/portfolio/kuchnia_2.webp
       categories : ["kuchnia"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "https://onet.pl"
+      link : "/portfolio/zamek_krolowej/"
       
     # portfolio item loop
-    - name : łaźnia 1
+    - name : "Kielecki Bogacz"
       image : images/portfolio/lazienka_1.jpg
       image_webp : images/portfolio/lazienka_1.webp
       categories : ["łazienka"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "https://onet.pl"
+      link : "/portfolio/kielecki_bogacz/"
 
     - name : łaźnia 2
       image : images/portfolio/lazienka_2.jpg
