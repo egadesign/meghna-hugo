@@ -22,7 +22,7 @@
 	{{ $custom := resources.Get "css/custom.css" | minify }}
   <link rel="stylesheet" href="{{ $custom.Permalink }}" media="screen">
 
-  <!-- {{ $preset := resources.Get "presets/preset1.css" }}
+    <!-- {{ $preset := resources.Get "presets/preset_ania.css" }}
     <link id="style-switch" href="{{ $preset.Permalink }}" media="screen" rel="stylesheet" type="text/css"> -->
 
 	{{ "<!--Favicon-->" | safeHTML }}

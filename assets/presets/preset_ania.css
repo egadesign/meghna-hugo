@@ -1,0 +1,58 @@
+:root {
+  /* --bezowy_ciemny: #8a847a;
+  --bezowy_sredni: #cabaa0;
+  --bezowy_jasny: #f0e7d6; */
+
+  --orginalny_niebieski: #1d1d1b;
+  --orginalny_niebieski_ciemny: #2c9091;
+  --orginalny_szary_sredni: #1d1d1b; /* zadowoleni klijeci, znaczki małe */
+
+  --737f8a: #1d1d1b; /* literki */
+  --353b43: #f0e7d6; /* tło */
+  --4e595f: #1d2024; /* ramka kontakt */
+  --ddd: #1d1d1b; /* imie i nazwisko itp */
+  --fff: #524e46; /* Nasze, o, litery główne */
+  --2F383D: #721c24; 
+  --242930: #d7caa4; /* tło jesteśmy elastyczni */
+  --2c2f36: #61f10d;
+  --666: rgb(241, 14, 14);
+  --f9f9f9: #05deee;
+  --292F36: #d7caa4; /* tło skontaktuj się i podstawowy, 320 zadowoleni */
+  --cfcfcf: #f10c0c;
+  --6CB670: #18ee22;
+  --1d2024: #a89b72; /* pasek sama góra */
+  --444: rgb(248, 4, 216);
+  --D8000C: #D8000C;
+  --FFBABA: #0ee98e;
+  --555: #1d1d1b; /* litery link do realizacji */
+  --eee: rgb(228, 224, 21);
+  --dedede: #13d35d;
+  --000: rgb(247, 9, 9);
+  --888: rgb(165, 226, 21);
+  --F76C5E: #F76C5E;
+  --55606a: #1d1d1b; /* znaczek facebooka itp do wywalenia ponoc */
+  --3d444a: #088afc;
+  --26292e: #a89b72; /* tło znaczka do facebooka */
+
+  --rgb1: rgba(0, 0, 0, 55%); /* ramka podstawowy */
+  --rgb2: rgba(132, 127, 118); /* cienie ramek uład funkcjonalny */
+  --rgb3: #f8f9fa; /* wyciecie układ funkcjonalny */
+  --rgb4: rgba(255, 255, 255, .1);
+  --rgb5: rgb(168 155 114 / 44%); /* tło obrazka na której sa kwadraciki 320 zadowoleni */
+  --rgb6: rgba(0, 0, 0, 0.5);
+  --rgb7: rgb(240 231 214 / 24%); /* tlo glownego obrazka */
+  --rgb8: rgba(0, 0, 0, 0.15);
+  --rgb9: rgba(87, 203, 204, 0.7);
+  --rgb10: rgba(0, 0, 0, 0.1);
+  --rgb11: rgba(42, 48, 55, 0.7);
+  --rgb12: rgba(0, 174, 255, 0.432);
+  --rgb13: rgba(187, 187, 187, 0.34);
+
+  --main_akcentowy:#b02b38; /* napisyprojekty i ramka wyślij */
+  --main_akcentowy_ciemniejszy: #a89b72; /* zmiana pod kolorem wyślij */
+  --text_tytuly: var(--orginalny_szary_sredni);
+
+  /* --main_ciemny: var(--bezowy_ciemny);
+  --main_sredni: var(--bezowy_sredni);
+  --main_jasny: var(--bezowy_jasny); */
+}
