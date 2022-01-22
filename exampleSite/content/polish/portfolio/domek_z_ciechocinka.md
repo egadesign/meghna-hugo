@@ -1,5 +1,5 @@
 ---
-title: "Realizacja1111 fdsafdsa"
+title: "Domek z Ciechocinka"
 date: 2018-09-12T12:52:36+06:00
 image_webp: images/blog/blog-post-3.webp
 image: images/blog/blog-post-3.jpg
@@ -7,12 +7,28 @@ author: John Doe
 description : "This is meta description"
 
 portfolio:
-  enable : true
-  title : Przykładowe projekty
   portfolio_item:
-  - name : kuchnia 1
-    image : images/portfolio/kuchnia_1.jpg
-    image_webp : images/portfolio/kuchnia_1.webp
+  - name : kuchnia
+    image : images/portfolio/kuchnia_2.jpg
+    image_webp : images/portfolio/kuchnia_2.webp
+    categories : ["kuchnia"]
+    content : ""
+    link : ""
+  - name : salon
+    image : images/portfolio/kuchnia_2.jpg
+    image_webp : images/portfolio/kuchnia_2.webp
+    categories : ["salon"]
+    content : ""
+    link : ""
+  - name : sypialnia
+    image : images/portfolio/kuchnia_2.jpg
+    image_webp : images/portfolio/kuchnia_2.webp
+    categories : ["sypialnia"]
+    content : ""
+    link : ""
+  - name : kuchnia 2
+    image : images/portfolio/kuchnia_2.jpg
+    image_webp : images/portfolio/kuchnia_2.webp
     categories : ["kuchnia"]
     content : ""
     link : ""
